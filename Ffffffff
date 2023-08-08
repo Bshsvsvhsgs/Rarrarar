@@ -107,12 +107,12 @@ OpSection:NewButton("Dark dex", "очень мощный скрипт", function
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
 end)
 
-local Notfe = Window:NewTab("все скрипты визуал")
+local Rare = Window:NewTab("Rare")
 
-local NotfeSection = Notfe:NewSection("Not fe")
+local RareSection = Rare:NewSection("Not fe")
 
 
-NotfeSection:NewButton("adminka", "визуальная админка", function()
+RareSection:NewButton("adminka", "визуальная админка", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Bshsvsvhsgs/Hdhhdhdhd/main/admin_patcch%20(2).txt"))()
 end)
 
