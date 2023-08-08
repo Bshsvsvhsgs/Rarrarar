@@ -86,7 +86,7 @@ OpsSection:NewButton("emotes r15", "работает толкьо для r15", f
     loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hex/main/R15%20Emotes.lua'))()
 end)
 
-local Games = Window:NewTab("Games")
+
 
 local GamesSection = Games:NewSection("Games")
 
@@ -107,7 +107,7 @@ OpSection:NewButton("Dark dex", "очень мощный скрипт", function
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
 end)
 
-local Rare = Window:NewTab("Rare")
+
 
 local RareSection = Rare:NewSection("Rare")
 
@@ -115,4 +115,6 @@ local RareSection = Rare:NewSection("Rare")
 RareSection:NewButton("adminka", "визуальная админка", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Bshsvsvhsgs/Hdhhdhdhd/main/admin_patcch%20(2).txt"))()
 end)
+
+local TestSection = Tab:NewSection("Test")
 
