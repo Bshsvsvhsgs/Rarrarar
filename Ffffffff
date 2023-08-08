@@ -77,3 +77,11 @@ end)
 HubsSection:NewButton("ghost hub", "очень хороший скрипт для троллинга рекомендую", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
 end)
+
+AdminsSection:NewButton("iv admin", "очень редкий скрипт", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hex/main/Iv%20Admin%20v3.lua'))()
+end)
+
+OpsSection:NewButton("emotes r15", "работает толкьо для r15", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hex/main/R15%20Emotes.lua'))()
+end)
