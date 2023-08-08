@@ -15,12 +15,10 @@ OpSection:NewButton("Death note", "что бы это сработало игр�
 end)
 
 
-OpSection:NewButton("Giga chad hub", "Я гига чад", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Gigachad%20Hub%20V4'))()
-end)
 
 
-local Fe = Window:NewTab("fe")
+
+local Fe = Window:NewTab("Fe")
 
 local FeSection = Fe:NewSection("Fe")
 
@@ -41,4 +39,36 @@ end)
 
 OpSection:NewButton("ignore touchinterests", "делает твоего персонажа бессмертным работает только в паркурах и обби", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))()
+end)
+
+
+
+local Hubs = Window:NewTab("Hubs")
+
+local HubsSection = Hubs:NewSection("Hubs")
+
+
+HubsSection:NewButton("giga chad hub", "Я гига чад", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Gigachad%20hub%20V5'))()
+end)
+
+local Admins = Window:NewTab("Admins")
+
+local AdminsSection = Admins:NewSection("Admins")
+
+
+AdminsSection:NewButton("infinite yield", "хороший скрипт", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+AdminsSection:NewButton("nameless admin", "хороший скрипт для троллинга", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
+end)
+
+AdminsSection:NewButton("cmd-x", "крутой скрипт", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
+AdminsSection:NewButton("fates admin", "очень крутой скрипт", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
 end)
