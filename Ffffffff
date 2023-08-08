@@ -109,7 +109,7 @@ end)
 
 local Rare = Window:NewTab("Rare")
 
-local RareSection = Rare:NewSection("Not fe")
+local RareSection = Rare:NewSection("Rare")
 
 
 RareSection:NewButton("adminka", "визуальная админка", function()
