@@ -102,13 +102,6 @@ GamesSection:NewButton("симулятор падения в канаву", "м�
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Vaxcurs/1/main/SimKanavaCode2.3.txt"))()
 end)
 
-local Визуал = Window:NewTab("Визуал")
-
-local ВизуалSection = Визуал:NewSection("Визуал")
-
-ВизуалSection:NewButton("Админка", "Визуальная админка", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bshsvsvhsgs/Hdhhdhdhd/main/admin_patcch%20(2).txt"))()
-end)
 
 
 
