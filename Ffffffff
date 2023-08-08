@@ -107,7 +107,7 @@ local Визуал = Window:NewTab("Визуал")
 local ВизуалSection = Визуал:NewSection("Визуал")
 
 ВизуалSection:NewButton("Админка", "Визуальная админка", function()
-    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bshsvsvhsgs/Hdhhdhdhd/main/admin_patcch%20(2).txt"))()
 end)
 
 
