@@ -101,3 +101,7 @@ end)
 GamesSection:NewButton("симулятор падения в канаву", "мощный скрипт на спвк", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Vaxcurs/1/main/SimKanavaCode2.3.txt"))()
 end)
+
+OpSection:NewButton("Dark dex", "очень мощный скрипт", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+end)
