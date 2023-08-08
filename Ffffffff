@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local Window = Library.CreateLib("ocean hub[private]", "Ocean")
+local Window = Library.CreateLib("ocean hub[private] не сливай пж", "Ocean")
 
 -- MAIN
 
@@ -84,4 +84,20 @@ end)
 
 OpsSection:NewButton("emotes r15", "работает толкьо для r15", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/BloodyBurns/Hex/main/R15%20Emotes.lua'))()
+end)
+
+local Games = Window:NewTab("Games")
+
+local GamesSection = Games:NewSection("Games")
+
+GamesSection:NewButton("Piggy", "скрипт на пигии", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/lolpoppyus/Roblox-Lua/master/Piggy'),true))()
+end)
+
+GamesSection:NewButton("Brookhaven", "скрипт на brookhaven", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+GamesSection:NewButton("симулятор падения в канаву", "мощный скрипт на спвк", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Vaxcurs/1/main/SimKanavaCode2.3.txt"))()
 end)
