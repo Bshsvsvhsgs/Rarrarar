@@ -101,9 +101,10 @@ end)
 GamesSection:NewButton("симулятор падения в канаву", "мощный скрипт на спвк", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Vaxcurs/1/main/SimKanavaCode2.3.txt"))()
 end)
-local Gg = Window:NewTab("Gg")
+local Fuck = Window:NewTab("Fuck")
 
-local GgSection = Gg:NewSection("Gg")
+local FuckSection = Fuck:NewSection("Fuck")
+
 
 
 
