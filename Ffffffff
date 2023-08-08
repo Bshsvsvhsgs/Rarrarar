@@ -72,3 +72,8 @@ end)
 AdminsSection:NewButton("fates admin", "очень крутой скрипт", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
 end)
+
+
+HubsSection:NewButton("ghost hub", "очень хороший скрипт для троллинга рекомендую", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
