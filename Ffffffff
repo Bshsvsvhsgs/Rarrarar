@@ -113,5 +113,24 @@ GamesSection:NewButton("Doors","Я когда в первые сыграл в н
 end)
 
 
+local Animations = Window:NewTab("Animations")
+
+local AnimationsSection = Animations:NewSection("Animations")
 
 
+AnimationsSection:NewButton("old animations", "старые анимации персонажа", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/MNxYvK8X"))()
+end)
+
+AnimationsSection:NewButton("animation hub","только для R15", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+end)
+
+AdminsSection:NewButton("homebrew admin","мощная админка", function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Syntaxx64/HomebrewAdmin/master/Main"))()
+end)
+
+
+AdminsSection:NewButton("proton admin","префикс /", function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5e6e6cc1bb32fd926764d064e2c60a3b.lua"))()
+end)
