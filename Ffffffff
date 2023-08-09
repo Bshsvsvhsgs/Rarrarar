@@ -139,3 +139,14 @@ end)
 OpSection:NewButton("ss gui","работает только в заражённых играх", function()
    loadstring(game:HttpGet("https://pastebin.com/raw/SrWukmGs"))()
 end)
+
+
+local Universal = Window:NewTab("Universal")
+
+local UniversalSection = Unuversal:NewSection("Universal")
+
+
+UniversalSection:NewButton("Acrylix","очень крутой скрипт", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/3dsonsuce/acrylix/main/Acrylix'))()
+end)
+
