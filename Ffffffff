@@ -143,7 +143,7 @@ end)
 
 local Universal = Window:NewTab("Universal")
 
-local UniversalSection = Unuversal:NewSection("Universal")
+local UniversalSection = Universal:NewSection("Universal")
 
 
 UniversalSection:NewButton("Acrylix","очень крутой скрипт", function()
