@@ -61,7 +61,8 @@ AdminsSection:NewButton("infinite yield", "хороший скрипт", functio
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-AdminsSection:NewButton("nameless admin", "хороший скрипт для троллинга", function()
+AdminsSectionAdminsSection:NewButton("infinite yield", "хороший скрипт", function()
+    loadstring(ga:NewButton("nameless admin", "хороший скрипт для троллинга", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
 end)
 
@@ -150,3 +151,6 @@ UniversalSection:NewButton("Acrylix","очень крутой скрипт", fun
    loadstring(game:HttpGet('https://raw.githubusercontent.com/3dsonsuce/acrylix/main/Acrylix'))()
 end)
 
+GamesSection:NewButton("lets party","супер мощный скрипт", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/MariyaFurmanova/Library/main/LPIAlpha", true))()
+end)
