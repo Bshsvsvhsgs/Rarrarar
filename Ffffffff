@@ -61,10 +61,11 @@ AdminsSection:NewButton("infinite yield", "хороший скрипт", functio
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-AdminsSectionAdminsSection:NewButton("infinite yield", "хороший скрипт", function()
-    loadstring(ga:NewButton("nameless admin", "хороший скрипт для троллинга", function()
+
+AdminsSection:NewButton("Nameless admin", "лучшая админка для троллинга", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source'))()
 end)
+
 
 AdminsSection:NewButton("cmd-x", "крутой скрипт", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
