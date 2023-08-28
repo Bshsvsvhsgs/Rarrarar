@@ -152,3 +152,24 @@ local UniversalSection = Universal:NewSection("Universal")
 UniversalSection:NewButton("Acrylix","очень крутой скрипт", function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/3dsonsuce/acrylix/main/Acrylix'))()
 end)
+
+AdminsSection:NewButton("reviz admin", "ощная админка поддерживает мобильники", function()
+    loadstring(game:HttpGetAsync("https://pastebin.com/raw/Caniwq2N"))()
+end)
+
+
+GamesSection:NewButton("lucky blocks", "скрипт на получение всех оружий", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ConePrince/LuckyBlocks/main/script.lua", true))()
+end)
+
+GamesSection:NewButton("Natural disaster survival", "мощный хаб", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/hussain1323232234/My-Scripts/main/Natural%20Disaster'))()
+end)
+
+local Rare = Window:NewTab("Rare")
+
+local RareSection = Rare:NewSection("Rare")
+
+RareSection:NewButton("Animations gui", "редкие анимации", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/fQwLf6hL"))()
+end)
