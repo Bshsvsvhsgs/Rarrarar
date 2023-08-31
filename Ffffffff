@@ -179,3 +179,8 @@ GamesSection:NewButton("Bed wars", "скрипт на bed wars", function()
     
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FRX397/Hydrohub/main/Hydro_hub", true))()
 end)
+
+
+AnimationsSection:NewButton("energize", "...", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/1p6xnBNf'),true))()
+end)
