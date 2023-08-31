@@ -173,3 +173,9 @@ local RareSection = Rare:NewSection("Rare")
 RareSection:NewButton("Animations gui", "редкие анимации", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/fQwLf6hL"))()
 end)
+
+
+GamesSection:NewButton("Bed wars", "скрипт на bed wars", function()
+    
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FRX397/Hydrohub/main/Hydro_hub", true))()
+end)
