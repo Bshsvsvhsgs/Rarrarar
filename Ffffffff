@@ -184,3 +184,22 @@ end)
 AnimationsSection:NewButton("energize", "...", function()
     loadstring(game:HttpGet(('https://pastebin.com/raw/1p6xnBNf'),true))()
 end)
+
+
+FeSection:NewButton("Keybind generator", "очень мощный скрипт", function()
+    loadstring(game:HttpGet(('https://pastefy.app/Ujm4HWxh/raw'),true))()
+end)
+
+
+OpSection:NewButton("Free gamepasses gui", "работает в некоторых играх", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/sZpgTVas"))()
+end)
+
+AdminsSection:NewButton("furry admin", "мега кринжовый скрипт который сделал я", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/hcStujD4"))()
+end)
+
+
+AnimationsSection:NewButton("parkour", "имба", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/eQKMHa7U"))()
+end)
