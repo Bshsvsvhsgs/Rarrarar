@@ -203,3 +203,7 @@ end)
 AnimationsSection:NewButton("parkour", "имба", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/eQKMHa7U"))()
 end)
+
+OpSection:NewButton("ocean calculator","калькулятор который сделал я", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/8EEDcbZE"))()
+end)
